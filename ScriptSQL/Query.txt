@@ -1,0 +1,14 @@
+create database DBAngular
+
+use DBAngular
+
+create table Tarea(
+idTarea int primary key identity,
+nombre varchar(40)
+)
+
+insert into Tarea(nombre) values
+('Aprender Angular'),
+('Aprender Blazor')
+
+select * from Tarea
